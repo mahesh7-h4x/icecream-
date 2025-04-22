@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Our Services</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      background-color:linear-gradient(to bottom, #fff0f5, #f9f9f9);
+    }
+
+    .header {
+      text-align: center;
+      padding: 40px 20px;
+      background: linear-gradient(to right, #0ce2e2, #ff9999);
+    }
+
+    .header h1 {
+      font-size: 45px;
+      color: #e67300;
+      margin-bottom: 10px;
+    }
+
+    .header p {
+      font-size: 18px;
+      color: #333;
+    }
+
+    .services-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 40px 20px;
+    }
+
+    .card {
+      width: 250px;
+      background-color: #ffffff;
+      border-radius: 20px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .card .icon {
+      font-size: 40px;
+      margin-bottom: 10px;
+    }
+
+    .card h3 {
+      color: #cc5200;
+      margin: 10px 0;
+    }
+
+    .card p {
+      font-size: 15px;
+      color: #333;
+    }
+
+    /* Different background colors for each card */
+    .bg1 { background-color: #ffe0b3; }
+    .bg2 { background-color: #ffd6d6; }
+    .bg3 { background-color: #d6f5d6; }
+    .bg4 { background-color: #e6ccff; }
+    .bg5 { background-color: #fff0f5; }
+
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <h1>🍨 Our Cool Services!</h1>
+    <p>We don’t just serve scoops — we serve smiles 😊</p>
+  </div>
+
+  <div class="services-container">
+
+    <div class="card bg1">
+      <div class="icon">🎂</div>
+      <h3>Custom Cakes</h3>
+      <p>Make your own ice cream cakes with fun flavors and toppings!</p>
+    </div>
+
+    <div class="card bg2">
+      <div class="icon">🎉</div>
+      <h3>Party Scoops</h3>
+      <p>We come to your party and bring scoops, cones & lots of sprinkles!</p>
+    </div>
+
+    <div class="card bg3">
+      <div class="icon">🚚</div>
+      <h3>Ice Cream Van</h3>
+      <p>Our colorful van brings happiness (and ice cream) to your home!</p>
+    </div>
+
+    <div class="card bg4">
+      <div class="icon">📦</div>
+      <h3>Sundae Kits</h3>
+      <p>Order a kit with cones, toppings, scoops & instructions for fun!</p>
+    </div>
+
+    <div class="card bg5">
+      <div class="icon">👨‍🍳</div>
+      <h3>DIY Classes</h3>
+      <p>Learn how to make ice cream from scratch — fun & easy!</p>
+    </div>
+
+  </div>
+
+</body>
+</html>
